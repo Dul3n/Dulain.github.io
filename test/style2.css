@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a.contact {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* Banner Section */
+.banner {
+    background: #e0f7fa;
+    padding: 80px;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #007bff;
+    font-size: 2.5em;
+}
+
+/* Consultation Search Section */
+.consultation-search {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.consultation-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.consultation-item {
+    margin: 0 20px;
+    text-align: left;
+}
+
+.consultation-item .icon {
+    font-size: 2em;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Service Description Section */
+.service-description {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-box {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    width: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media a {
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: white;
+}
